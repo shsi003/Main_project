@@ -9,11 +9,16 @@ body{
 	font-size: 16px;
 	line-height: 1.6;
 	color: #333;
-	margin:0;
-	padding:0;
+	align-items:center;
 	background-color:#fff;
-	min-height: 100vh
-
+	min-height: 100vh;
+	background-image: url(/assets/images/Mainpagebackground/Mainpage.jpeg);
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-position:center;
+	overflow-x:hidden;
+	
+	
 }
 
 .content{
@@ -28,6 +33,7 @@ body{
 	background-color:black;
 	font-family: 'Anta';
 	margin-bottom: 10px;
+	border-bottom: 2px solid gold;
 }
 
 
@@ -37,10 +43,19 @@ body{
 	align-items:center;
 	margin-top: 10px;
 	margin-bottom: 10px;
+	background-color:rgb(42, 39, 39);
 	justify-content: center;
 	flex-direction:column;
 	border-top:solid black 2px;
 	border-bottom: solid black 2px;
+	border-top: 2px solid gold;
+	border-bottom: 2px solid gold;
+
+}
+
+.image-container{
+	background-color: black;
+	border: 2px solid gold;
 
 }
 
@@ -48,18 +63,26 @@ body{
 	display: flex;
 	justify-content: center;
 	text-align: center;
+	padding:5px;
+	border-radius:15px;
+	border: 2px solid gold;
 	font-weight: bold;
-	color: black;
+	font-family: 'Anta';
+	color: white;
+	background-color:black;
 	flex-direction:column;
 
 }
 
 .ad-description{
-	display: flex;
+	display: inline-block;
+	padding:10px;
 	justify-content: center;
 	text-align: center;
-	color: black;
+	color: white;
+	background-color:black;
 	margin-bottom:10px;
+	border-radius:30px;
 }
 
 .visit-here{
@@ -68,7 +91,7 @@ body{
 	text-align: center;
 	color:white;
 	background-color: black;
-	border: 2px solid black;
+	border: 2px solid gold;
 	border-radius: 30px;
 	padding: 10px;
 	text-decoration:none;	
@@ -77,7 +100,7 @@ body{
 }
 
 footer {
-    position: fixed;
+    
 	font-family: 'Anta';
     bottom: 0;
     width: 100%;
@@ -86,6 +109,9 @@ footer {
     border: 2px solid black;
     text-align: center;
     padding: 10px;
+	border-top: 2px solid gold;
+	margin-top: 10px;
+	bottom:0;
 }
 
 
